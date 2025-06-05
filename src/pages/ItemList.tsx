@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../hooks/useAuth';
+// import { useAuth } from '../hooks/useAuth';
 
 interface Item {
     id: string;
@@ -17,7 +17,7 @@ interface Item {
 }
 
 const ItemsList: React.FC = () => {
-    const { user } = useAuth();
+    // const { user } = useAuth();
     const [items, setItems] = useState<Item[]>([]);
     const [filteredItems, setFilteredItems] = useState<Item[]>([]);
     const [isLoading, setIsLoading] = useState(true);
