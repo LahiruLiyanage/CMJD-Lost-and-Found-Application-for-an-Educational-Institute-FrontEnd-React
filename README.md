@@ -207,7 +207,7 @@ lost-found-app/
 │   │   │   ├── Loading.tsx
 │   │   │   └── ProtectedRoute.tsx
 │   │   ├── items/
-│   │   │   ├── ItemList.tsx
+│   │   │   ├── ItemsList.tsx
 │   │   │   ├── ItemCard.tsx
 │   │   │   ├── ItemForm.tsx
 │   │   │   └── ItemDetails.tsx
